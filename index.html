@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>BT5</title>
+</head>
+<body>
+	<h1 class="text-center">Grid</h1>
+	<div class="container text-center">
+	  <div class="row mb-5">
+		<div class="col-lg-4 bg-danger">Column</div>
+		<div class="col-lg-4 bg-warning">Column</div>
+		<div class="col-lg-4 bg-info">Column</div>
+	  </div>
+	  <div class="row mb-1">
+		<div class="col-lg-6 bg-danger">1 of 2</div>
+		<div class="col-lg-6 bg-warning">2 of 2</div>
+	  </div>
+	  <div class="row mb-5">
+		<div class="col-lg-4 bg-danger">1 of 3</div>
+		<div class="col-lg-4 bg-warning">2 of 3</div>
+		<div class="col-lg-4 bg-info">3 of 3</div>
+	  </div>
+	  <div class="row mb-1">
+		<div class="col-lg bg-danger">Column</div>
+		<div class="col-lg-6 bg-warning">Column-6</div>
+		<div class="col-lg bg-info">Column</div>
+	  </div>
+	  <div class="row mb-5">
+		<div class="col-lg bg-danger">Column</div>
+		<div class="col-lg-5 bg-warning">Column-5</div>
+		<div class="col-lg bg-info">Column</div>
+	  </div>
+
+	  <div class="row mb-1 justify-content-center">
+		<div class="col-lg-2 bg-danger">Column</div>
+		<div class="col-lg-auto bg-warning">Variable width content</div>
+		<div class="col-lg-2 bg-info">Column</div>
+	  </div>
+      <div class="row mb-5">
+		<div class="col-lg bg-danger">Column</div>
+		<div class="col-lg-auto bg-warning">Variable width content</div>
+		<div class="col-lg-2 bg-info">Column</div>
+	  </div>
+
+      <div class="row mb-1">
+		<div class="col-lg bg-danger">Column</div>
+		<div class="col-lg bg-warning">Column</div>
+		<div class="col-lg bg-info">Column</div>
+		<div class="col-lg bg-primary">Column</div>
+	  </div>
+	  <div class="row mb-5">
+		<div class="col-lg-8 bg-danger">Column-8</div>
+		<div class="col-lg-4 bg-info">Column-4</div>
+	  </div>
+
+	  <div class="row mb-1">
+		<div class="col-lg-8 bg-danger">Column-8</div>
+		<div class="col-lg-4 bg-info">Column-4</div>
+	  </div>
+	  <div class="row mb-5">
+		<div class="col-lg bg-danger">Column-lg</div>
+		<div class="col-lg bg-warning">Column-lg</div>
+		<div class="col-lg bg-info">Column-lg</div>
+	  </div>
+
+	  <div class="row mb-1">
+		<div class="col-lg-8 bg-danger">Column-8</div>
+		<div class="col-lg-4 bg-info">Column-4</div>
+	  </div>
+	  <div class="row mb-1">
+		<div class="col-lg bg-danger">Column-lg</div>
+		<div class="col-lg bg-warning">Column-lg</div>
+		<div class="col-lg bg-info">Column-lg</div>
+	  </div>
+	  <div class="row mb-5">
+		<div class="col-lg-6 bg-danger">Column-lg-6</div>
+		<div class="col-lg-6 bg-warning">Column-lg-6</div>
+	  </div>
+	<h1 class="text-center">Row-columns</h1>
+    <div class="row row-cols-2 mb-5">
+    	<div class="col-lg-6 bg-warning">Column</div>
+    	<div class="col-lg-6 bg-danger">Column</div>
+    	<div class="col-lg-6 bg-info">Column</div>
+    	<div class="col-lg-6 bg-success">Column</div>
+    </div>
+    <h1 class="text-center">Row-columns-auto</h1>
+    <div class="row row-cols-auto mb-5">
+    	<div class="col-lg bg-warning">Column</div>
+    	<div class="col-lg bg-danger">Column</div>
+    	<div class="col-lg bg-info">Column</div>
+    	<div class="col-lg bg-success">Column</div>
+    </div>
+
+    <div class="row row-cols-4 mb-5">
+    	<div class="col-lg bg-warning">Column</div>
+    	<div class="col-lg bg-danger">Column</div>
+    	<div class="col-lg-10 bg-info">Column</div>
+    	<div class="col-lg bg-success">Column</div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5">
+    	<div class="col-lg bg-warning">Column</div>
+    	<div class="col-lg bg-danger">Column</div>
+    	<div class="col-lg bg-info">Column</div>
+    	<div class="col-lg bg-success">Column</div>
+    </div>
+
+
+	<h1 class="text-center">Nesting</h1>
+    <div class="row mb-5">
+    	<div class="col-lg-2 bg-info">Level 1:col-lg-3</div>
+    	<div class="col-lg-10 bg-dark">
+    		<div class="row py-3">
+    			<div class="col-lg bg-danger">Level 2:col-8 col-sm 6</div>
+    			<div class="col-lg bg-warning">Level 2:col-4 col-sm 6</div>
+    		</div>
+    	</div>
+    </div>
+
+    <h1 class="text-center text-danger">Columns</h1>
+    <h1 class="text-center">Vertical align</h1>
+    <div style="height: 100px;" class="row bg-warning mb-2 align-items-start">
+  <div class="col-4 h-25  bg-danger">Column</div>
+  <div class="col-4 h-25  bg-info">Column</div>
+  <div class="col-4 h-25   bg-success">Column</div>
+  </div>
+  <div style="height: 100px;" class="row bg-warning mb-2 align-items-center">
+  <div class="col-4 h-25  bg-danger">Column</div>
+  <div class="col-4 h-25  bg-info">Column</div>
+  <div class="col-4 h-25   bg-success">Column</div>
+  </div>
+  <div style="height: 100px;" class="row bg-warning mb-2 align-items-end">
+  <div class="col-4 h-25  bg-danger">Column</div>
+  <div class="col-4 h-25  bg-info">Column</div>
+  <div class="col-4 h-25   bg-success">Column</div>
+  </div>
+
+
+  <h1 class="text-center">align-self</h1>
+    <div style="height: 100px;" class="row bg-warning mb-2 ">
+  <div class="col-4 h-25  bg-danger align-self-start">Column</div>
+  <div class="col-4 h-25  bg-info align-self-center">Column</div>
+  <div class="col-4 h-25   bg-success align-self-end">Column</div>
+  </div>
+ </div>
+
+<h1 class="text-center">Horizontal alignment</h1>
+<div style="height: 150px;" class="container bg-dark text-center mb-5">
+<div class="row justify-content-start">
+	<div class="col-4 h-25 bg-warning">Column</div>
+	<div class="col-4 h-25 bg-info">Column</div>
+</div>
+<div class="row justify-content-center">
+	<div class="col-4 h-25 bg-success">Column</div>
+	<div class="col-4 h-25 bg-warning">Column</div>
+</div>
+<div class="row justify-content-end">
+	<div class="col-4 h-25 bg-info">Column</div>
+	<div class="col-4 h-25 bg-success">Column</div>
+</div>
+<div class="row justify-content-between">
+	<div class="col-4 h-25 bg-primary">Column</div>
+	<div class="col-4 h-25 bg-warning">Column</div>
+</div>
+<div class="row justify-content-around">
+	<div class="col-4 h-25 bg-success">Column</div>
+	<div class="col-4 h-25 bg-info">Column</div>
+</div>
+<div class="row justify-content-evenly">
+	<div class="col-4 h-25 bg-light">Column</div>
+	<div class="col-4 h-25 bg-primary">Column</div>
+</div>
+	</div>
+
+	<h1 class="text-center">Column wrapping</h1>
+<div class="container mb-5">
+	<div class="row">
+		<div class="col-9 bg-danger">Col-9</div>
+		<div class="col-4 bg-warning">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+		<div class="col-6 bg-info">.col-6<br>Subsequent columns continue along the new line.</div>
+	</div>
+</div>
+
+
+	<h1 class="text-center">Column breaks </h1>
+<div class="container text-center">
+  <div class="row  justify-content-center">
+    <div class="col-6 col-sm-3 bg-danger">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3 bg-info">.col-6 .col-sm-3</div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-6 col-sm-3 bg-warning">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3 bg-success">.col-6 .col-sm-3</div>
+  </div>
+
+ 	<h1 class="text-center">Order classes</h1>
+ <div class="row mb-5">
+ 	<div class="col bg-primary">4</div>
+ 	<div class="col order-1 bg-danger">3</div>
+ 	<div class="col order-3 bg-warning">1</div>
+ 	<div class="col order-2 bg-info">5</div>
+ 	<div class="col order-4 bg-success">2</div>
+ </div>
+
+
+
+ 	<h1 class="text-center">Offsetting columns</h1>
+ <div class="row">
+    <div class="col-lg-4 bg-danger">.col-md-4</div>
+    <div class="col-lg-4 offset-4 bg-warning">.col-md-4 .offset-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 offset-3 bg-info">.col-md-3 .offset-md-3</div>
+    <div class="col-lg-3 offset-3 bg-success">.col-md-3 .offset-md-3</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 offset-3 bg-primary">.col-md-6 .offset-md-3</div>
+  </div>
+
+   	<h1 class="text-center">Margin utilities</h1>
+   	<div class="row">
+   		<div class="col-lg-4 bg-info">Col1</div>
+   		<div class="col-lg-4 bg-danger ms-auto">Col2</div>
+   	</div>
+   	<div class="row">
+   		<div class="col-lg-3 bg-warning ms-auto">Col1</div>
+   		<div class="col-lg-3 bg-primary ms-auto">Col2</div>
+   	</div>
+   	<div class="row">
+   		<div class="col-lg-auto bg-success me-auto">Col1</div>
+   		<div class="col-lg-auto bg-danger">Col2</div>
+   	</div>
+</div>
+</body>
+</html>
